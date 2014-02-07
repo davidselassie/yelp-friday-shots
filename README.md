@@ -23,6 +23,7 @@ Bell Strikage Success Criteria
 ------------------------------
 1. The shooter must have both of his or her feet on the ground and be behind
    the line where the color of tile changes.
+2. The shooter must 
 2. The shooter must use a single-shot nerf gun. No shooter may claim a gun or
    dart-- all equipment (including personal equipment) must be available to all
    shooters.
@@ -32,16 +33,27 @@ Bell Strikage Success Criteria
 
 Friday Shots Enhancement Proposals (FSEPs)
 ------------------------------------------
-FSEP 1. Ideally we would have about one winner per month so there's been
-   discussion of making the shot harder. The most obvious way to shoot from
-   further away. It's probably best to wait and see roughly how many winners
-   per week we get.
+FSEP 1. (cpollock)
+    Ideally we would have about one winner per month so there's been discussion
+    of making the shot harder. The most obvious way to shoot from further away.
+    It's probably best to wait and see roughly how many winners per week we get.
 
-FSEP 2. Currently the rules stipulate that a single-shot nerf gun must be used.
-   It has been proposed that we allow darts to be thrown. It is unlikely
-   throwing the dart will give the thrower an advantage-- if anything it seems
-   like a disadvantage.
+FSEP 2. (dselassi) -- ACCEPTED 2014-02-07
+    Currently the rules stipulate that a single-shot nerf gun must be used. It
+    has been proposed that we allow darts to be thrown. It is unlikely throwing
+    the dart will give the thrower an advantage-- if anything it seems like a
+    disadvantage.
 
+
+More Information
+----------------
+This repo: y/friday_shots
+
+On IRC: #friday-shots
+
+Other friday-shots games:
+* [Wordnik](https://github.com/colinpollock/friday-shots)
+* [Willowtree Apps](https://github.com/willowtreeapps/friday-shots)
 
 Statistics
 ----------
