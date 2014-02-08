@@ -8,5 +8,20 @@
       "dselassi": false, 
       "cpollock": true
     }
+  }, 
+  {
+    "date": "2014-02-07", 
+    "results": {
+      "benjamin": false, 
+      "jtwang": false, 
+      "cpollock": false, 
+      "tbrooks": false, 
+      "dselassi": false, 
+      "ahutchinson": false, 
+      "aschofie": false, 
+      "philz": false, 
+      "robert_guest": false, 
+      "tkadich": false
+    }
   }
 ]
