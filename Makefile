@@ -1,6 +1,14 @@
 .PHONY: play scoreboard clean
 
+DATE=$(shell date +%F)
+
 play:
+	git checkout master
+	python run.py data.json
+	make clean
+	make scoreboard
+	git add data.json README.md
+	git commit -m 'Scores from $(DATE).'
 
 # Paste the statistics at the end of the readme.
 scoreboard:

@@ -1,13 +1,15 @@
-
 from datetime import datetime
 import json
 import random
 import sys
 
-names = list(set(sys.argv[1:]))
+data_filename = sys.argv[1]
+
+name_input = raw_input('Who is playing? Comma separated list of names: ')
+names = [name.strip() for name in name_input.split(',') if name.strip() != '']
 
 print 'There are %d players: %s' % (len(names), ', '.join(sorted(names)))
-raw_input('Continue?')
+raw_input('Press any key to start.')
 print "'y' for a hit, 'n' for a miss, 's' to skip someone no longer playing, 'w' to wait"
 
 random.shuffle(names)
@@ -37,10 +39,11 @@ while names:
         names.append(name)
 
 
-with open('data.json', 'r') as f:
+with open(data_filename, 'r') as f:
     data = json.load(f)
 
 data.append({'date': str(datetime.now().date()), 'results': results})
 
-with open('data.json', 'w') as f:
+with open(data_filename, 'w') as f:
     json.dump(data, f, indent=2)
+print "Updated {0} with these results.".format(data_filename)
