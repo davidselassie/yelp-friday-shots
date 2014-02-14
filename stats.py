@@ -12,7 +12,7 @@ def player_records(data):
     Args:
       data: JSON representing the results of the competitions
 
-    Returns: 
+    Returns:
       list of (player, (#wins, #losses, %wins)) pairs sorted descending by %wins
     """
 
@@ -24,8 +24,8 @@ def player_records(data):
             else:
                 counter[player]['losses'] += 1
 
-    triples = [(player, counts['wins'], counts['losses'], 
-            counts['wins'] / (counts['wins'] + counts['losses'])) 
+    triples = [(player, counts['wins'], counts['losses'],
+            counts['wins'] / (counts['wins'] + counts['losses']))
            for player, counts in counter.iteritems()]
 
     def key((player, wins, losses, win_ratio)):
@@ -48,7 +48,7 @@ def money_by_player(data, include_losers=False):
     for day in data:
         money_in_the_pot += len(day['results'])
 
-        winners = [player for (player, success) in day['results'].iteritems() 
+        winners = [player for (player, success) in day['results'].iteritems()
                           if success]
 
         if winners:
@@ -107,7 +107,8 @@ def main(args):
     with open(data_fp, 'r') as f:
         data = json.load(f)
 
-
+    print "Statistics"
+    print "----------"
     print "####  Players' records  ####"
     for player, wins, losses, win_percentage in player_records(data):
         print '* %d of %d (%.0f%%) %s' % \
