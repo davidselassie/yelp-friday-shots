@@ -11,8 +11,7 @@ Rules
    fees must be paid prior to the first shot.
 1. All shooters who hit the bell will split the pot.
 1. Only one game may be played per week.
-1. run.py must be used to run the game. Someone must update the stats in
-   the README once the game is done.
+1. `make play` will be used to run the game.
 
 
 Meta Rules
@@ -49,6 +48,10 @@ anything it seems like a disadvantage.
 
 ### FSEP 3. (cpollock) -- ACCEPTED 2014-02-14
 Start the game at 5:00pm
+
+### FSEP 4. (dselassi) -- ACCEPTED 2014-02-14
+Adds a makefile that will run the game, update scores in the readme, and
+commit the results for you.
 
 
 More Information
