@@ -3,7 +3,7 @@ Friday Shots
 
 Rules
 -----
-1. The competition begins every Friday at 5:30pm.
+1. The competition begins every Friday at 5:00pm.
 1. Anyone in the office at the time of the competition can participate.
 1. No shooter may claim a gun or dart -- all equipment (including
    personal equipment) must be available to all shooters.
@@ -46,6 +46,9 @@ Currently the rules stipulate that a single-shot nerf gun must be
 used. It has been proposed that we allow darts to be thrown. It is
 unlikely throwing the dart will give the thrower an advantage -- if
 anything it seems like a disadvantage.
+
+### FSEP 3. (cpollock) -- ACCEPTED 2014-02-14
+Start the game at 5:00pm
 
 
 More Information
