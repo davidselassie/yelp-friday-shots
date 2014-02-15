@@ -5,6 +5,8 @@ Rules
 -----
 1. The competition begins every Friday at 5:30pm.
 1. Anyone in the office at the time of the competition can participate.
+1. No shooter may claim a gun or dart -- all equipment (including
+   personal equipment) must be available to all shooters.
 1. Each participant gets to take one shot after paying the $1 entry fee. All
    fees must be paid prior to the first shot.
 1. All shooters who hit the bell will split the pot.
@@ -24,9 +26,8 @@ Bell Strikage Success Criteria
 ------------------------------
 1. The shooter must have both of their feet on the ground and be behind
    the line where the color of tile changes.
-1. The shooter must use a single-shot nerf gun. No shooter may claim a
-   gun or dart -- all equipment (including personal equipment) must be
-   available to all shooters.
+1. The shooter is allowed one dart and one single-shot Nerf gun to
+   strike the bell. The gun need not be used.
 1. The dart must strike the bell directly without first contacting anything
    else.
 
