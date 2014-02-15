@@ -15,12 +15,24 @@
       "benjamin": false, 
       "jtwang": false, 
       "cpollock": false, 
+      "robert_guest": false, 
       "tbrooks": false, 
       "dselassi": false, 
       "ahutchinson": false, 
       "aschofie": false, 
       "philz": false, 
-      "robert_guest": false, 
+      "tkadich": false
+    }
+  }, 
+  {
+    "date": "2014-02-14", 
+    "results": {
+      "krall": false, 
+      "striglia": false, 
+      "tbrooks": false, 
+      "dselassi": false, 
+      "ahutchinson": false, 
+      "nthompso": false, 
       "tkadich": false
     }
   }
