@@ -71,7 +71,7 @@ Statistics
 * 1 of 1 (100%) jfennell
 * 1 of 3 (33%) cpollock
 * 0 of 4 (0%) dselassi
-* 0 of 3 (0%) ahutchinson
+* 0 of 3 (0%) ahutchin
 * 0 of 3 (0%) tkadich
 * 0 of 2 (0%) aschofie
 * 0 of 2 (0%) jtwang
