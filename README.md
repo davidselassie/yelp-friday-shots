@@ -69,29 +69,33 @@ Statistics
 ----------
 ####  Players' records  ####
 * 1 of 1 (100%) jfennell
-* 1 of 2 (50%) cpollock
-* 0 of 3 (0%) dselassi
-* 0 of 2 (0%) ahutchinson
+* 1 of 3 (33%) cpollock
+* 0 of 4 (0%) dselassi
+* 0 of 3 (0%) ahutchinson
+* 0 of 3 (0%) tkadich
 * 0 of 2 (0%) aschofie
+* 0 of 2 (0%) jtwang
+* 0 of 2 (0%) philz
 * 0 of 2 (0%) striglia
 * 0 of 2 (0%) tbrooks
-* 0 of 2 (0%) tkadich
+* 0 of 1 (0%) aditya
 * 0 of 1 (0%) benjamin
-* 0 of 1 (0%) jtwang
+* 0 of 1 (0%) dlants
+* 0 of 1 (0%) heath
 * 0 of 1 (0%) krall
 * 0 of 1 (0%) nthompso
-* 0 of 1 (0%) philz
 * 0 of 1 (0%) robert_guest
+* 0 of 1 (0%) stop
 
 #### Money by player  ####
 * [$2.50] jfennell
 * [$2.50] cpollock
 
 #### Players per game  ####
-* Average: 7.33
-* Std dev: 2.05
+* Average: 8.00
+* Std dev: 2.12
 * Minimum: 5
 * Maximum: 10
 
 ### Money in the pot ###
-* $17
+* $27
