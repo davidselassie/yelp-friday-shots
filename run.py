@@ -3,13 +3,22 @@ import json
 import random
 import sys
 
-data_filename = sys.argv[1]
+import stats
 
+
+data_filename = sys.argv[1]
+with open(data_filename, 'r') as f:
+    data = json.load(f)
+
+print 'The pot is currently at $%d.' % stats.current_pot(data)
 name_input = raw_input('Who is playing? Comma separated list of names: ')
 names = [name.strip() for name in name_input.split(',') if name.strip() != '']
 
+print
 print 'There are %d players: %s' % (len(names), ', '.join(sorted(names)))
-raw_input('Press any key to start.')
+print 'The pot is now $%d.' % (stats.current_pot(data) + len(names))
+raw_input('Press enter to start. ')
+print
 print "'y' for a hit, 'n' for a miss, 's' to skip someone no longer playing, 'w' to wait"
 
 random.shuffle(names)
@@ -37,10 +46,6 @@ while names:
     else:
         print 'Unrecognized'
         names.append(name)
-
-
-with open(data_filename, 'r') as f:
-    data = json.load(f)
 
 data.append({'date': str(datetime.now().date()), 'results': results})
 
