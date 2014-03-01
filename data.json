@@ -18,20 +18,20 @@
       "robert_guest": false, 
       "tbrooks": false, 
       "dselassi": false, 
-      "ahutchin": false, 
       "aschofie": false, 
       "philz": false, 
+      "ahutchin": false, 
       "tkadich": false
     }
   }, 
   {
     "date": "2014-02-14", 
     "results": {
+      "ahutchin": false, 
       "krall": false, 
       "striglia": false, 
       "tbrooks": false, 
       "dselassi": false, 
-      "ahutchin": false, 
       "nthompso": false, 
       "tkadich": false
     }
@@ -39,16 +39,29 @@
   {
     "date": "2014-02-21", 
     "results": {
+      "ahutchin": false, 
       "jtwang": false, 
       "cpollock": false, 
       "dlants": false, 
       "aditya": false, 
       "dselassi": false, 
-      "ahutchin": false, 
-      "philz": false, 
       "heath": false, 
-      "tkadich": false,
-      "stop": false
+      "stop": false, 
+      "philz": false, 
+      "tkadich": false
+    }
+  }, 
+  {
+    "date": "2014-02-28", 
+    "results": {
+      "krall": false, 
+      "dselassi": false, 
+      "dlants": false, 
+      "aschofie": false, 
+      "philz": true, 
+      "nthompso": false, 
+      "tkadich": false, 
+      "cpollock": false
     }
   }
 ]
