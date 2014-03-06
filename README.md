@@ -1,17 +1,36 @@
 Friday Shots
 ============
+Weekly marksmanship competition. Hit the bell with a Nerf dart and win money.
 
-Rules
------
-1. The competition begins every Friday at 5:00pm.
-1. Anyone in the office at the time of the competition can participate.
+
+Gameplay
+--------
+1. Each round begins on Friday at 5:00pm.
+1. Each shooter pays a $1 entry fee into to the pot to play the round.
+1. Once everyone has paid, `make play` is used to run the round.
+1. Each shooter gets one shot at the bell.
+1. All shooters who hit the bell split the pot evenly. If no one hits
+   the bell, the pot rolls over to the next round.
+
+
+Clarifications
+--------------
+1. Anyone in the office at the time of the round can participate.
+1. All entry fees must be paid prior to the first shot.
+1. Order of shooting and records are kept via the game script.
 1. No shooter may claim a gun or dart -- all equipment (including
    personal equipment) must be available to all shooters.
-1. Each participant gets to take one shot after paying the $1 entry fee. All
-   fees must be paid prior to the first shot.
-1. All shooters who hit the bell will split the pot.
-1. Only one game may be played per week.
-1. `make play` will be used to run the game.
+1. The shooter is allowed one dart and one single-shot Nerf gun to
+   strike the bell. The gun need not be used.
+1. Only one round may be played per week.
+
+
+Bell Strikage Success Criteria
+------------------------------
+1. The shooter must have both of their feet on the ground and be behind
+   the line where the color of tile changes.
+1. The dart must strike the bell directly without first contacting anything
+   else.
 
 
 Meta Rules
@@ -19,16 +38,6 @@ Meta Rules
 1. The co-Benevolent Dictators for Life are cpollock and dselassi. They must
    agree to any rule changes.
 1. All proposed changes must be written up as FSEPs.
-
-
-Bell Strikage Success Criteria
-------------------------------
-1. The shooter must have both of their feet on the ground and be behind
-   the line where the color of tile changes.
-1. The shooter is allowed one dart and one single-shot Nerf gun to
-   strike the bell. The gun need not be used.
-1. The dart must strike the bell directly without first contacting anything
-   else.
 
 
 Friday Shots Enhancement Proposals (FSEPs)
