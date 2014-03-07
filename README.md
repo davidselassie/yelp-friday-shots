@@ -2,6 +2,8 @@ Friday Shots
 ============
 Weekly marksmanship competition. Hit the bell with a Nerf dart and win money.
 
+**Each round starts at 5:00pm on Fridays by the Search Pod on 11.**
+
 
 Gameplay
 --------
