@@ -1,10 +1,11 @@
 from __future__ import division
 
-from collections import defaultdict
 import json
 import math
-from operator import itemgetter
 import sys
+from collections import defaultdict
+from datetime import date
+from operator import itemgetter
 
 
 def player_records(data):
@@ -99,7 +100,6 @@ def stdev(xs):
 
 
 def main(args):
-
     if not args:
         raise Exception('First arg must be path to data file.')
 
@@ -109,29 +109,25 @@ def main(args):
 
     print "Statistics"
     print "----------"
-    print "####  Players' records  ####"
+    print "As of %s." % date.today().isoformat()
+    print
+    print "#### Players' Records ####"
     for player, wins, losses, win_percentage in player_records(data):
         print '* %d of %d (%.0f%%) %s' % \
               (wins, wins + losses, win_percentage * 100, player)
-
     print
-
-    print '#### Money by player  ####'
+    print '#### Money by Player ####'
     for player, money_won in money_by_player(data):
         print '* [$%.2f] %s' % (money_won, player)
-
     print
-
-    print '#### Players per game  ####'
+    print '#### Players per Game ####'
     mini, maxi, avg, std = players_per_game(data)
     print '* Average: %.2f' % avg
     print '* Std dev: %.2f' % std
     print '* Minimum: %d' % mini
     print '* Maximum: %d' % maxi
-
     print
-
-    print '### Money in the pot ###'
+    print '### Money in the Pot ###'
     print '* $%d' % current_pot(data)
 
 
