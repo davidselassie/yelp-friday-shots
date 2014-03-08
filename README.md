@@ -78,15 +78,19 @@ Other friday-shots games:
 
 Statistics
 ----------
-####  Players' records  ####
+As of 2014-03-07.
+
+#### Players' Records ####
 * 1 of 1 (100%) jfennell
+* 1 of 1 (100%) michaelm
 * 1 of 3 (33%) philz
-* 1 of 4 (25%) cpollock
+* 1 of 5 (20%) cpollock
 * 0 of 5 (0%) dselassi
-* 0 of 4 (0%) tkadich
+* 0 of 5 (0%) tkadich
 * 0 of 3 (0%) ahutchin
 * 0 of 3 (0%) aschofie
 * 0 of 2 (0%) dlants
+* 0 of 2 (0%) heath
 * 0 of 2 (0%) jtwang
 * 0 of 2 (0%) krall
 * 0 of 2 (0%) nthompso
@@ -94,20 +98,20 @@ Statistics
 * 0 of 2 (0%) tbrooks
 * 0 of 1 (0%) aditya
 * 0 of 1 (0%) benjamin
-* 0 of 1 (0%) heath
 * 0 of 1 (0%) robert_guest
 * 0 of 1 (0%) stop
 
-#### Money by player  ####
+#### Money by Player ####
 * [$35.00] philz
+* [$4.00] michaelm
 * [$2.50] jfennell
 * [$2.50] cpollock
 
-#### Players per game  ####
-* Average: 8.00
-* Std dev: 1.90
-* Minimum: 5
+#### Players per Game ####
+* Average: 7.33
+* Std dev: 2.29
+* Minimum: 4
 * Maximum: 10
 
-### Money in the pot ###
+### Money in the Pot ###
 * $0
